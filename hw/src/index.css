@@ -1,0 +1,155 @@
+*{
+  margin: 0px; padding: 0px;
+
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.BaseClass{
+  display:flex;
+}
+
+.User {
+  background-color: rgb(253, 5, 187);
+  height: 100vh;
+  width: 30vw;
+}
+
+.ImageList1 {
+  background-color: rgb(8, 8, 207);
+  height: 100vh;
+  width: 70vw;
+}
+
+.container2{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+
+.UpdateAdd{
+  width: 100%;
+  height: 100%;
+}
+
+.moviedes{
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+  transition: all; transition-duration: 0.8s;
+  width: 300px !important;
+  max-height: 560px !important;
+}
+.ArtLists{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: scroll;
+}
+
+.description{
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Scroll çubuğu arka plan rengi */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+/* Scroll çubuğu dolgu rengi */
+::-webkit-scrollbar-thumb {
+  background-color: #f1f1f1;
+  border-radius: 4px;
+}
+
+/* Scroll çubuğu üzerine gelindiğinde */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #f1f1f1;
+}
+
+
+.update-container {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+  transition: all 2s;
+}
+
+.update-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.update-container div {
+  margin-bottom: 10px;
+}
+
+.update-container label {
+  font-weight: bold;
+}
+
+.update-container input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.update-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.update-container button:hover {
+  background-color: #0056b3;
+}
+
+.ProductListDiv-1{
+  width: 20%;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  transition: all 2s;
+}
+
+.ProductListDiv-1>button{
+  width: auto;
+  height: auto;
+  margin-left: 25px;
+}
+
+.ProductListDiv-2{
+  width: 100%;
+  height: 100vh;
+  overflow: scroll;
+  transition: all 2s;
+}
+
